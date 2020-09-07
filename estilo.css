@@ -1,0 +1,125 @@
+.titulos{ font-family: Poppins, Geneva, Tahoma, sans-serif;
+color: #33cccc;
+
+}
+.bio{ width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-kerning: auto;
+    font-size-adjust: 18px;
+    background-color: #33cccc;
+    color: white;  
+}
+p.imagenes{ width: 500px;}
+a:hover{opacity:0.8;}
+
+a{text-decoration: none;
+}
+.button {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  .overlay{
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    visibility: hidden;
+
+  }
+
+  .overlay.active {
+    visibility: visible;
+  }
+
+  .popup{
+      background: #f8f8f8;
+      box-shadow: opx 0px 5px 0px;  rgba (0,0,0,0.3);
+      border-radius: 20px;
+      font-family: serif;
+      font-family: "Montserrat";
+      padding: 20px;
+      text-align: center;
+      width: 600px;
+      
+
+
+
+    }
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #BBBBBB;
+    transition: .3s ease all;
+}
+.popup .btn-cerrar-popup:hover {  
+    color: rgba(0,0,0,0.3);
+}
+
+.popup h3{
+    font-size: 36px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    /*copacity */
+}
+.popup h4{
+    font-size: 26px;
+    font-weight: 300px;
+    margin-bottom: 40px;
+    /*copacity*/
+
+}
+
+/*.popup form .contenedor-inputs {
+}*/
+
+
+.popup form .contenedor-inputs input {
+    width: 100%; 
+    margin-bottom: 20px;
+    height: 52 px;
+    line-height: 52px;
+    font-size: 1182;
+    text-align: center;
+    border: 1px solid #BBBBBB;
+}
+
+.popup form  .btn-submit {
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #5E7DE3;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    text-align: center;
+}
+
+.popup form .btn-submit:hover{
+    background: rgba(94, 125, 227, .7);
+}
+
+ 
+#Layer_1 { 
+    width: 200px;
+    color: aqua;
+}
