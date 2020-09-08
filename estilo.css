@@ -38,8 +38,7 @@ a{text-decoration: none;
     align-items: center;
     justify-items: center;
     visibility: hidden;
-
-  }
+    }
 
   .overlay.active {
     visibility: visible;
@@ -55,8 +54,6 @@ a{text-decoration: none;
       text-align: center;
       width: 600px;
       
-
-
 
     }
 .popup .btn-cerrar-popup {
